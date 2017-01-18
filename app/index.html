@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body ng-app = "myApp">
+
+
+<section ng-controller = "firstController">
+
+	<h1>Data count: {{count}} </h1>
+
+	<form ng-submit = "add()">
+		<input type="text" name="" ng-model = "count">
+		<input type="submit" name="">
+	</form>
+
+	<div ng-controller = "thirdController as thirdCtrl">
+		<h1>Data count: {{count}} </h1>
+	</div>
+
+</section>
+
+<section ng-controller = "secondController">
+
+	<h1>Data count: {{count}} </h1>
+
+	<form ng-submit = "add()">
+		<input type="text" name="" ng-model = "count">
+		<input type="submit" name="">
+	</form>
+</section>
+
+	<script type="text/javascript" src = "bower_components/angular/angular.min.js"></script>
+	<script type="text/javascript" src = "app.js"></script>
+</body>
+</html>

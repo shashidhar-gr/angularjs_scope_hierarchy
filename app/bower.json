@@ -1,0 +1,20 @@
+{
+  "name": "app",
+  "main": "app.js",
+  "authors": [
+    "shashidhar-gr <shashidhargr26@gmail.com>"
+  ],
+  "description": "",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "1.6.1"
+  }
+}
